@@ -1,0 +1,61 @@
+/* Navbar 스타일 */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Navbar 배경색 */
+    padding: 10px 20px;
+}
+
+/* 로고 이미지 스타일 */
+.navbar-logo {
+    max-height: 30px; /* 로고 이미지의 최대 높이 */
+}
+
+/* 버튼 스타일 */
+.navbar-button {
+    color: #4CAF50; /* 버튼 텍스트 색상 - 진초록색 */
+    border: 2px solid #4CAF50; /* 테두리 색상 - 진초록색 */
+    background-color: transparent; /* 배경색 없음 */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* 회색 버튼 스타일 */
+.navbar-button-gray {
+    background-color: #cccccc; /* 회색 버튼 배경색 */
+    color: #ffffff; /* 버튼 텍스트 색상 */
+    border: 2px solid transparent;
+}
+
+/* 메인 버튼 스타일 */
+.main-button{
+    color: black; /* 버튼 텍스트 색상 - 진초록색 */
+    border: 2px solid black; /* 테두리 색상 - 진초록색 */
+    background-color: transparent; /* 배경색 없음 */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* 텍스트 상자 스타일 */
+.text-box {
+    background-color: #f2f2f2; /* 연회색 배경색 */
+    padding: 10px; /* 텍스트 상자 내부 여백 */
+    margin-left: 20px; /* 들여쓰기 */
+    margin-top: 10px; /* 위 여백 */
+    border-radius: 8px; /* 텍스트 상자 모서리를 둥글게 만듦 */
+}
+
+.text-bold {
+    font-weight: bold; 
+}
